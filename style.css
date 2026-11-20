@@ -167,6 +167,11 @@ a {
   background: var(--yellow);
 }
 
+.button-instagram {
+  color: var(--white);
+  background: linear-gradient(115deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
 .button-secondary {
   color: var(--white);
   border: 1px solid rgba(255, 255, 255, 0.55);
@@ -680,13 +685,23 @@ a {
   }
 
   .hero-actions {
+    flex-wrap: wrap;
     align-items: stretch;
   }
 
   .hero-actions .button {
     flex: 1;
+    min-width: 0;
     padding: 0 12px;
     text-align: center;
+  }
+
+  .hero-actions .button-instagram {
+    font-size: 12px;
+  }
+
+  .hero-actions .button-secondary {
+    flex-basis: 100%;
   }
 
   .tagline {
@@ -756,6 +771,16 @@ a {
 
   .footer-actions .button {
     flex: 1;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .button-secondary {
+    flex-basis: auto;
   }
 }
 
