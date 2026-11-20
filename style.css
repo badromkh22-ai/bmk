@@ -168,6 +168,9 @@ a {
 }
 
 .button-instagram {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
   color: var(--white);
   background: linear-gradient(115deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
@@ -694,10 +697,6 @@ a {
     min-width: 0;
     padding: 0 12px;
     text-align: center;
-  }
-
-  .hero-actions .button-instagram {
-    font-size: 12px;
   }
 
   .hero-actions .button-secondary {
