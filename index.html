@@ -1,149 +1,178 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8">
-<title>BMK - Badro</title>
-<style>@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 52px !important;
-  }
-  .btn {
-    width: 90% !important;
-    font-size: 17px !important;
-    padding: 14px !important;
-    display: block !important;
-    margin: 10px auto !important;
-  }
-  /* هادو يخليو الكارتات يوليو واحد تحت واحد */
-  .services-grid, .grid, .cards, .art-grid {
-    grid-template-columns: 1fr !important;
-    display: grid !important;
-    gap: 15px !important;
-  }
-  .card {
-    width: 100% !important;
-  }
-  nav {
-    font-size: 14px !important;
-  }
-  .hero h1 {
-    font-size: 52px !important;
-  }
-  .btn {
-    width: 90% !important;
-    font-size: 17px !important;
-    padding: 14px !important;
-    display: block !important;
-    margin: 10px auto !important;
-  }
-  /* هادو يخليو الكارتات يوليو واحد تحت واحد */
-  .services-grid, .grid, .cards, .art-grid {
-    grid-template-columns: 1fr !important;
-    display: grid !important;
-    gap: 15px !important;
-  }
-  .card {
-    width: 100% !important;
-  }
-  nav {
-    font-size: 14px !important;
-  }
-}
-body{margin:0;font-family:Arial,sans-serif;text-align:center}
-.nav{display:flex;justify-content:space-between;align-items:center;background:#0B0B1A;padding:15px 25px}
-.logo{color:white;font-weight:bold;font-size:22px}
-.logo span{color:#FFD700}
-.nav a{color:white;text-decoration:none;margin:0 10px;font-size:15px}
-.hero{background:linear-gradient(90deg,#FFC700 0%,#2E2AA6 100%);color:white;padding:40px 20px 60px}
-.badge{display:inline-block;background:white;color:#333;padding:8px 18px;border-radius:20px;font-size:13px;font-weight:bold}
-.hero h1{font-size:90px;margin:10px 0 0}
-.hero h1 span{color:#FFD700}
-.hero h2{color:#FFD700;letter-spacing:4px;font-size:20px;margin:5px 0 15px}
-.desc{max-width:600px;margin:0 auto 25px;line-height:1.6}
-.btn{display:inline-block;padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:bold;margin:5px}
-.whatsapp{background:#FFD700;color:black}
-.insta{background:white;color:black}
-.line{margin-top:25px;color:#FFD700;font-weight:bold;letter-spacing:2px}
-.section{padding:50px 20px}
-.dark{background:#111;color:white}
-.cards{display:flex;gap:15px;flex-wrap:wrap;justify-content:center;margin-top:30px}
-.card{background:#222;border-radius:15px;padding:20px;width:280px;text-align:left}
-.price{color:#FFD700;font-weight:bold;margin-top:10px}
-.art{background:linear-gradient(90deg,#FFB800,#8A5CF6);padding:30px 20px}
-.art-flex{display:flex;gap:15px;flex-wrap:wrap;justify-content:center}
-.art-box{background:white;border-radius:15px;padding:20px;width:250px;text-align:left;color:#333}
-.art-first{background:#FFC700;color:black}
-.works{background:#0B0B1A;color:white}
-.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px;max-width:900px;margin:30px auto 0}
-.work{height:120px;border-radius:15px;display:flex;align-items:flex-end;padding:15px;font-weight:bold;text-align:left;color:white}
-.w1{background:linear-gradient(135deg,#FFB800,#FF6B00)}
-.w2{background:linear-gradient(135deg,#3B82F6,#00CFFF)}
-.w3{background:linear-gradient(135deg,#222,#666)}
-.w4{background:linear-gradient(135deg,#FF3B3B,#FFB800)}
-.w5{background:linear-gradient(135deg,#00C98A,#00E5FF)}
-.w6{background:linear-gradient(135deg,#FF6B00,#B565D8)}
-.footer{background:#0B0B1A;color:white;padding:50px 20px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17122f">
+  <meta name="description" content="BMK by Badro - graphic design, branding, posters and video editing in Ain Mlila, Algeria.">
+  <title>BMK | BADRO - Graphic Designer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="hero" id="home">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="BMK home">BMK<span>.</span></a>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<div class="nav">
-<div class="logo">BMK<span>.</span></div>
-<div><a href="#">Services</a><a href="#">My Art</a><a href="#">Works</a><a href="#">Contact</a></div>
-</div>
+    <div class="hero-inner">
+      <p class="eyebrow">DESIGN <span></span> VIDEO <span></span> BRANDING</p>
+      <h1>BMK<span>.</span></h1>
+      <p class="role">BADRO <b>-</b> GRAPHIC DESIGNER</p>
+      <p class="hero-copy">
+        Professional visual identities and advertising content for brands in Ain Mlila and across Algeria.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://wa.me/213000000000" target="_blank" rel="noopener">Order on WhatsApp</a>
+        <a class="button button-secondary" href="#portfolio">View my work</a>
+      </div>
+      <p class="tagline">LOGO <i></i> POSTER <i></i> VIDEO <i></i> BRANDING</p>
+    </div>
+  </header>
 
-<div class="hero">
-<div class="badge">DESIGN - VIDEO - BRANDING</div>
-<h1>BMK<span>.</span></h1>
-<h2>BADRO - GRAPHIC DESIGNER</h2>
-<p class="desc">I create professional designs and advertising videos for shops and businesses in Ain Mlila and all over Algeria. Logo, poster, TikTok video and full ads, ready to publish.</p>
-<a class="btn whatsapp" href="https://wa.me/213000000000">WhatsApp - اطلب خدمتك</a>
-<a class="btn insta" href="https://instagram.com/badro_mkh">Instagram - شوف خدمتي</a>
-<div class="line">LOGO - AFFICHE - TIKTOK - PUBLICITE - BRANDING</div>
-</div>
+  <main>
+    <section class="section services" id="services">
+      <div class="section-heading">
+        <p class="kicker">WHAT I OFFER</p>
+        <h2>My Services</h2>
+        <p>Clear packages, fast delivery, and designs made to get attention.</p>
+      </div>
 
-<div class="section dark">
-<h2>My Services</h2>
-<p>Choose your service, send me a message and start your project the same day.</p>
-<div class="cards">
-<div class="card"><h3>Logo & Branding</h3><p>A strong logo that people remember. Full identity for your brand.</p><div class="price">From 2500 DA / ابتداء من 2500 دج</div></div>
-<div class="card"><h3>Poster & Social Media</h3><p>Eye-catching posters for Instagram, TikTok and Facebook, ready to post.</p><div class="price">From 1200 DA / ابتداء من 1200 دج</div></div>
-<div class="card"><h3>TikTok Video & Ads</h3><p>Short videos that sell. Editing, music, text and call to action.</p><div class="price">From 3000 DA / ابتداء من 3000 دج</div></div>
-</div>
-</div>
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3>Logo Design</h3>
+          <p>Custom, memorable logo concepts with final files ready for print and social media.</p>
+          <div class="price">2,500 <small>DA</small></div>
+        </article>
+        <article class="service-card featured">
+          <span class="popular">Popular</span>
+          <span class="service-number">02</span>
+          <h3>Brand Identity</h3>
+          <p>Logo, colors, typography and visual direction for a consistent professional brand.</p>
+          <div class="price">8,500 <small>DA</small></div>
+        </article>
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3>Social Poster</h3>
+          <p>A ready-to-publish poster designed for Instagram, Facebook and TikTok.</p>
+          <div class="price">1,200 <small>DA</small></div>
+        </article>
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <h3>Campaign Pack</h3>
+          <p>Five coordinated promotional designs for an offer, launch or social campaign.</p>
+          <div class="price">5,500 <small>DA</small></div>
+        </article>
+        <article class="service-card">
+          <span class="service-number">05</span>
+          <h3>Short Video Ad</h3>
+          <p>Dynamic montage with effects, text, music, timing and a clear call to action.</p>
+          <div class="price">3,500 <small>DA</small></div>
+        </article>
+        <article class="service-card">
+          <span class="service-number">06</span>
+          <h3>Menu & Flyer</h3>
+          <p>Clean print or digital menu and flyer layouts that are easy to read and share.</p>
+          <div class="price">2,000 <small>DA</small></div>
+        </article>
+      </div>
+    </section>
 
-<div class="art">
-<div class="art-flex">
-<div class="art-box art-first"><h3>My Art Has A Meaning</h3><p>Every design tells a story, I don't just make something beautiful, I make something that makes your client stop, look and buy.</p></div>
-<div class="art-box"><h3>Color - اللون</h3><p>Yellow for energy, purple for creativity. Colors that give power to your brand.</p></div>
-<div class="art-box"><h3>Story - الحكاية</h3><p>Your shop has a story, I turn it into a visual that people feel.</p></div>
-<div class="art-box"><h3>Impact - التأثير</h3><p>Design is not decoration, it is a tool to bring you more clients.</p></div>
-</div>
-</div>
+    <section class="section portfolio" id="portfolio">
+      <div class="section-heading">
+        <p class="kicker">SELECTED WORK</p>
+        <h2>Portfolio</h2>
+        <p>Real visual concepts built around bold type, strong color and clear messages.</p>
+      </div>
 
-<div class="section works">
-<h2>My Works</h2>
-<p>Logo - Affiche - TikTok - Branding</p>
-<div class="grid">
-<div class="work w1">LOGO - Boutique</div>
-<div class="work w2">AFFICHE - Restaurant</div>
-<div class="work w3">BRANDING - BMK</div>
-<div class="work w4">TIKTOK - Promo</div>
-<div class="work w5">POSTER - Shop</div>
-<div class="work w6">ADS - Product</div>
-</div>
-</div>
+      <div class="portfolio-grid">
+        <article class="project project-coffee">
+          <div class="project-art">
+            <span class="mini-logo">NOVA</span>
+            <h3>COFFEE<br>ROASTERS</h3>
+            <p>EST. 2026</p>
+          </div>
+          <div class="project-meta"><h3>Nova Coffee</h3><p>Logo &amp; packaging</p></div>
+        </article>
+        <article class="project project-burger">
+          <div class="project-art">
+            <span class="stamp">NEW</span>
+            <h3>BIG BITE</h3>
+            <p>BURGERS <b>+</b> GOOD TASTE</p>
+          </div>
+          <div class="project-meta"><h3>Big Bite</h3><p>Social campaign</p></div>
+        </article>
+        <article class="project project-beauty">
+          <div class="project-art">
+            <span class="beauty-mark">S</span>
+            <h3>SILK</h3>
+            <p>BEAUTY STUDIO</p>
+          </div>
+          <div class="project-meta"><h3>Silk Studio</h3><p>Brand identity</p></div>
+        </article>
+        <article class="project project-sneaker">
+          <div class="project-art">
+            <p class="drop-label">LIMITED DROP</p>
+            <h3>RUN<br>02</h3>
+            <span class="shoe">S</span>
+          </div>
+          <div class="project-meta"><h3>Run 02</h3><p>Product poster</p></div>
+        </article>
+        <article class="project project-food">
+          <div class="project-art">
+            <p>WEEKEND SPECIAL</p>
+            <h3>TASTY<br><span>HOUSE</span></h3>
+          </div>
+          <div class="project-meta"><h3>Tasty House</h3><p>Restaurant offer</p></div>
+        </article>
+        <article class="project project-fitness">
+          <div class="project-art">
+            <p>TRAIN WITH PURPOSE</p>
+            <h3>NO<br><span>LIMIT</span></h3>
+          </div>
+          <div class="project-meta"><h3>No Limit Fitness</h3><p>Campaign design</p></div>
+        </article>
+      </div>
+    </section>
 
-<div class="footer">
-<h2>Ready to start?</h2>
-<p>Send me a message now on WhatsApp</p>
-<a class="btn whatsapp" href="https://wa.me/2130000000000">اطلب عبر واتساب</a>
-<a class="btn insta" href="https://instagram.com/badro_mkh">شوف خدمتي</a>
-</div>
-<script>
-function salam() {
-  alert("سلام، مرحبا بيك في BMK! واش حاب تخدم؟ Logo ولا TikTok");
-}
-</script>
+    <section class="section video-section" id="video">
+      <div class="video-copy">
+        <p class="kicker">MOTION &amp; EDITING</p>
+        <h2>Montage Showreel</h2>
+        <p>Fast cuts, dynamic typography and clean transitions for ads that stay memorable.</p>
+      </div>
+      <div class="video-frame">
+        <video controls playsinline preload="metadata" poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1280' height='720'%3E%3Crect width='1280' height='720' fill='%2317122f'/%3E%3Ccircle cx='640' cy='360' r='210' fill='%23ffd12e'/%3E%3Ctext x='640' y='390' text-anchor='middle' font-family='Arial' font-size='150' font-weight='700' fill='%2317122f'%3EBMK%3C/text%3E%3C/svg%3E">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </section>
+
+    <section class="about">
+      <div>
+        <p class="kicker">THE IDEA BEHIND BMK</p>
+        <h2>Design with purpose.</h2>
+      </div>
+      <p>Every project tells a story. I combine yellow energy with purple creativity to build visuals that stop the scroll and make your brand easier to remember.</p>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div>
+      <p class="footer-brand">BMK<span>.</span></p>
+      <p>BADRO - GRAPHIC DESIGNER</p>
+    </div>
+    <div class="footer-actions">
+      <a class="button button-primary" href="https://wa.me/213000000000" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="button button-outline" href="https://instagram.com/badro_mkh" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </footer>
 </body>
 </html>
